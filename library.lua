@@ -3470,7 +3470,7 @@ do
                 window.currentContent.button = button
             end
             --
-            utility:LoadImage(button_gradient, "gradient", "https://imgur.com/a/94ATeAX")
+            utility:LoadImage(button_gradient, "gradient", "https://i.imgur.com/a/94ATeAX")
             --
             library.began[#library.began + 1] = function(Input)
                 if Input.UserInputType == Enum.UserInputType.MouseButton1 and (button_outline.Visible or button.open) and window.isVisible then
@@ -3497,7 +3497,7 @@ do
                                 --
                                 task.wait(0.15)
                                 --
-                                utility:LoadImage(button_gradient, "gradient", "https://imgur.com/a/94ATeAX") 
+                                utility:LoadImage(button_gradient, "gradient", "https://i.imgur.com/a/94ATeAX") 
                             end)
                             --
                             if not button.open then
@@ -3519,7 +3519,7 @@ do
             playerList.buttons[#playerList.buttons + 1] = button
         end
         --
-        utility:LoadImage(list_gradient, "gradient", "https://imgur.com/a/94ATeAX")
+        utility:LoadImage(list_gradient, "gradient", "https://i.imgur.com/a/94ATeAX")
         --
         function playerList:GetSelection()
             for Index, Value in pairs(playerList.players) do
@@ -3791,7 +3791,7 @@ do
             Color = "textcolor"
         }
         --
-        utility:LoadImage(toggle__gradient, "gradient", "https://imgur.com/a/94ATeAX")
+        utility:LoadImage(toggle__gradient, "gradient", "https://i.imgur.com/a/94ATeAX")
         --
         function toggle:Get()
             return toggle.current
@@ -3914,7 +3914,7 @@ do
             if transp then
                 utility:LoadImage(colorpicker__transparency, "cptransp", "https://i.imgur.com/IIPee2A.png")
             end
-            utility:LoadImage(colorpicker__gradient, "gradient", "https://imgur.com/a/94ATeAX")
+            utility:LoadImage(colorpicker__gradient, "gradient", "https://i.imgur.com/a/94ATeAX")
             --
             function colorpicker:Set(color, transp_val)
                 if typeof(color) == "table" then
@@ -4380,7 +4380,7 @@ do
                 Color = "textcolor"
             }
             --
-            utility:LoadImage(keybind__gradient, "gradient", "https://imgur.com/a/94ATeAX")
+            utility:LoadImage(keybind__gradient, "gradient", "https://i.imgur.com/a/94ATeAX")
             --
             function keybind:Shorten(string)
                 for i,v in pairs(shortenedInputs) do
@@ -4598,7 +4598,7 @@ do
                             Visible = page.open
                         }, keybind.modemenu.drawings)
                         --
-                        utility:LoadImage(keybind__gradient, "gradient", "https://imgur.com/a/94ATeAX")
+                        utility:LoadImage(keybind__gradient, "gradient", "https://i.imgur.com/a/94ATeAX")
                         --
                         for i,v in pairs({"Always", "Toggle", "On Hold", "Off Hold"}) do
                             local button_title = utility:Create("TextLabel", {Vector2.new(modemenu_frame.Size.X/2,15 * (i-1)), modemenu_frame}, {
@@ -4760,7 +4760,7 @@ do
             Color = "textcolor"
         }
         --
-        utility:LoadImage(slider__gradient, "gradient", "https://imgur.com/a/94ATeAX")
+        utility:LoadImage(slider__gradient, "gradient", "https://i.imgur.com/a/94ATeAX")
         --
         function slider:Set(value)
             local oldval = slider.current
@@ -4896,7 +4896,7 @@ do
                     --
                     task.wait(0.15)
                     --
-                    utility:LoadImage(button_gradient, "gradient", "https://imgur.com/a/94ATeAX") 
+                    utility:LoadImage(button_gradient, "gradient", "https://i.imgur.com/a/94ATeAX") 
                 end)
                 --
                 callback()
@@ -5946,7 +5946,7 @@ do
             Color = "textcolor"
         }
         --
-        utility:LoadImage(keybind__gradient, "gradient", "https://imgur.com/a/94ATeAX")
+        utility:LoadImage(keybind__gradient, "gradient", "https://i.imgur.com/a/94ATeAX")
         --
         function keybind:Shorten(string)
             for i,v in pairs(shortenedInputs) do
@@ -6160,7 +6160,7 @@ do
                         Visible = page.open
                     }, keybind.modemenu.drawings)
                     --
-                    utility:LoadImage(keybind__gradient, "gradient", "https://imgur.com/a/94ATeAX")
+                    utility:LoadImage(keybind__gradient, "gradient", "https://i.imgur.com/a/94ATeAX")
                     --
                     for i,v in pairs({"Always", "Toggle", "On Hold", "Off Hold"}) do
                         local button_title = utility:Create("TextLabel", {Vector2.new(modemenu_frame.Size.X/2,15 * (i-1)), modemenu_frame}, {
@@ -6295,7 +6295,7 @@ do
         if transp then
             utility:LoadImage(colorpicker__transparency, "cptransp", "https://i.imgur.com/IIPee2A.png")
         end
-        utility:LoadImage(colorpicker__gradient, "gradient", "https://imgur.com/a/94ATeAX")
+        utility:LoadImage(colorpicker__gradient, "gradient", "https://i.imgur.com/a/94ATeAX")
         --
         function colorpicker:Set(color, transp_val)
             if typeof(color) == "table" then
@@ -6739,7 +6739,7 @@ do
             if transp then
                 utility:LoadImage(colorpicker__transparency, "cptransp", "https://i.imgur.com/IIPee2A.png")
             end
-            utility:LoadImage(colorpicker__gradient, "gradient", "https://imgur.com/a/94ATeAX")
+            utility:LoadImage(colorpicker__gradient, "gradient", "https://i.imgur.com/a/94ATeAX")
             --
             function colorpicker:Set(color, transp_val)
                 if typeof(color) == "table" then
@@ -7218,7 +7218,7 @@ do
             list.buttons[i] = config_title
         end
         --
-        utility:LoadImage(list_gradient, "gradient", "https://imgur.com/a/94ATeAX")
+        utility:LoadImage(list_gradient, "gradient", "https://i.imgur.com/a/94ATeAX")
         --
         function list:UpdateScroll()
             if (#list.options - list.max) > 0 then
